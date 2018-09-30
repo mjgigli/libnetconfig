@@ -7,6 +7,7 @@ add_definitions(-pedantic -Wall -Werror -std=c++11)
 
 add_library(netconfig
     STATIC
+    src/net/ip/prefix.cpp
     src/net/ip/ipaddress.cpp
     src/net/ip/ipv4address.cpp
     )

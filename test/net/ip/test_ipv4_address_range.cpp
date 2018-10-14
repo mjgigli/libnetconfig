@@ -28,7 +28,7 @@
 
 #include <string>
 
-#include "net/ip/ipv4_address_range.hpp"
+#include "net/ip/ipv4.hpp"
 
 TEST(Ipv4AddressRangeConstructorTest, AddressArguments) {
     net::ip::Ipv4Address first(0x01020304);

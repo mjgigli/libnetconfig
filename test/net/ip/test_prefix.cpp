@@ -26,7 +26,7 @@
 
 #include <gtest/gtest.h>
 
-#include "net/ip/prefix.hpp"
+#include "net/ip.hpp"
 
 
 TEST(PrefixConstructorTest, Length) {

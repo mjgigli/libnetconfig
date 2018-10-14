@@ -26,8 +26,7 @@
 
 #include <gtest/gtest.h>
 
-#include "net/ip/ipv4network.hpp"
-#include "net/ip/ipv4address.hpp"
+#include "net/ip/ipv4.hpp"
 
 TEST(Ipv4NetworkConstructorTest, Default) {
     net::ip::Ipv4Network network;

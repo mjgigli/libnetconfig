@@ -28,7 +28,7 @@
 
 #include <string>
 
-#include "net/ip/ipv4address.hpp"
+#include "net/ip/ipv4.hpp"
 
 TEST(Ipv4AddressConstructorTest, Default) {
     net::ip::Ipv4Address addr;

@@ -28,7 +28,7 @@
 
 #include <string>
 
-#include "net/ip/ipv4_address_range_iterator.hpp"
+#include "net/ip/ipv4.hpp"
 
 TEST(Ipv4AddressRangeIteratorConstructorTest, Default) {
     net::ip::Ipv4AddressRangeIterator it1;

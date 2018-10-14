@@ -14,3 +14,8 @@ target_link_libraries(test-ipv4_address_range_iterator
     ${GTEST_BOTH_LIBRARIES} pthread)
 target_link_libraries(test-ipv4_address_range_iterator netconfig)
 add_test(test-ipv4_address_range_iterator test-ipv4_address_range_iterator)
+
+add_executable(test-ipv4_address_range test_ipv4_address_range.cpp)
+target_link_libraries(test-ipv4_address_range ${GTEST_BOTH_LIBRARIES} pthread)
+target_link_libraries(test-ipv4_address_range netconfig)
+add_test(test-ipv4_address_range test-ipv4_address_range)

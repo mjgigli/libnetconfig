@@ -10,6 +10,7 @@ add_library(netconfig
     src/net/ip/prefix.cpp
     src/net/ip/ipaddress.cpp
     src/net/ip/ipv4address.cpp
+    src/net/ip/ipv4_address_range_iterator.cpp
     )
 
 add_custom_target(
